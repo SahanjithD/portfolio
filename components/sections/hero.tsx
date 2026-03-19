@@ -106,6 +106,21 @@ export function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center px-4 py-20">
+      {/* Top-right availability badge aligned with header container (scrolls with the page). */}
+      <div className="absolute top-20 right-0 w-full z-20 pointer-events-none">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end">
+          <div className="pointer-events-auto flex items-center gap-3 px-4 py-3 backdrop-blur-xl bg-green-500/10 border border-green-500/30 rounded-xl shadow-[0_0_60px_rgba(34,211,238,0.08)]">
+            <div className="relative">
+              <div className="w-3 h-3 rounded-full bg-green-500" />
+              <div className="absolute inset-0 w-3 h-3 rounded-full bg-green-500 animate-ping" />
+            </div>
+            <span className="text-sm text-green-400 font-medium">
+              Available for freelance and full-time opportunities
+            </span>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full max-w-4xl mx-auto">
         {/* Title area */}
         <div className="mb-8 text-center md:text-left">
