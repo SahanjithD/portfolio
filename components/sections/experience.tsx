@@ -6,39 +6,30 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
-    title: "DevOps Engineering Intern",
-    organization: "Tech Startup Inc.",
-    period: "Jun 2025 - Present",
+    title: "National Executive",
+    organization: "G17",
+    period: "Present",
     description:
-      "Designing and implementing CI/CD pipelines, managing Kubernetes clusters, and automating infrastructure deployment across multiple cloud providers.",
-    highlights: ["Reduced deployment time by 60%", "Implemented GitOps workflow", "Managed 20+ microservices"],
+      "Contributing to strategic initiatives, planning events, and supporting student-led community programs.",
+    highlights: ["Leadership", "Coordination", "Teamwork"],
   },
   {
     type: "work",
-    title: "Network Security Analyst",
-    organization: "CyberGuard Solutions",
-    period: "Jan 2025 - May 2025",
+    title: "Treasurer",
+    organization: "IEEE Student Branch",
+    period: "Present",
     description:
-      "Conducted security assessments, monitored network traffic for threats, and implemented security policies across enterprise infrastructure.",
-    highlights: ["Identified 15+ vulnerabilities", "Implemented SIEM solutions", "Reduced incident response time"],
+      "Managing branch finances, budget allocations, and transparent reporting for technical and student activities.",
+    highlights: ["Financial Planning", "Budget Management", "Reporting"],
   },
   {
     type: "education",
-    title: "B.S. Computer Engineering",
-    organization: "State University",
-    period: "2022 - 2026 (Expected)",
+    title: "Computer Engineering Undergraduate",
+    organization: "University of Ruhuna",
+    period: "Current",
     description:
-      "Focusing on systems engineering, network architecture, and cybersecurity. Active member of the Cybersecurity Club and DevOps Community.",
-    highlights: ["GPA: 3.8/4.0", "Dean's List", "Research Assistant"],
-  },
-  {
-    type: "work",
-    title: "IT Support Technician",
-    organization: "University IT Department",
-    period: "Sep 2023 - Dec 2024",
-    description:
-      "Provided technical support for campus network, managed Active Directory, and assisted with system administration tasks.",
-    highlights: ["Resolved 500+ tickets", "Automated routine tasks", "Trained new staff"],
+      "3rd Year Undergraduate at the Faculty of Engineering following BScEng (Hons) in Computer Engineering.",
+    highlights: ["GPA: 3.46", "3rd Year", "Computer Engineering"],
   },
 ];
 

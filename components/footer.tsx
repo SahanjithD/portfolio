@@ -24,7 +24,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-muted-foreground font-mono">
-            &copy; {currentYear} DevOps Engineer. All rights reserved.
+            &copy; {currentYear} Dasun Deshaja. All rights reserved.
           </p>
 
           <div className="flex items-center gap-2 text-xs text-muted-foreground font-mono">

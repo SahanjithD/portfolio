@@ -6,44 +6,44 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Cloud Infrastructure Orchestrator",
+    title: "Draftly",
     description:
-      "Automated multi-cloud deployment platform using Terraform and Kubernetes. Features self-healing infrastructure, auto-scaling, and comprehensive monitoring.",
-    tags: ["Terraform", "Kubernetes", "AWS", "Prometheus", "Go"],
+      "Open-source blogging application built with React, Node.js, Express, and MongoDB. Includes Dockerized workflows and a Jenkins CI/CD pipeline deploying to AWS EC2.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Docker", "Jenkins", "AWS EC2"],
     icon: Cloud,
-    github: "#",
-    live: "#",
+    github: "https://github.com/SahanjithD/Draftly",
+    live: null,
     status: "Production",
   },
   {
-    title: "SecureNet Analyzer",
+    title: "CrowdSense",
     description:
-      "Real-time network traffic analysis tool with ML-powered threat detection. Identifies anomalies and potential security breaches with 95% accuracy.",
-    tags: ["Python", "TensorFlow", "Wireshark", "ELK Stack"],
+      "Community-driven full-stack platform for real-time public-space feedback with a Next.js frontend, Express backend, JWT auth, and PostgreSQL/Supabase integration.",
+    tags: ["Next.js", "Express", "PostgreSQL", "Supabase", "JWT", "Tailwind CSS"],
     icon: Shield,
-    github: "#",
-    live: "#",
+    github: "https://github.com/SahanjithD/crowdsense",
+    live: null,
     status: "Active",
   },
   {
-    title: "CI/CD Pipeline Framework",
+    title: "E-Channeling App",
     description:
-      "Modular CI/CD framework supporting multiple languages and deployment targets. Reduced deployment time by 70% across 15+ microservices.",
-    tags: ["Jenkins", "GitHub Actions", "Docker", "ArgoCD"],
+      "Full-stack E-Channeling platform for doctor search and appointment booking, combining a React web app, Express/Prisma API, and a WPF desktop client.",
+    tags: ["React", "Express", "Prisma", "SQLite", ".NET WPF", "Full Stack"],
     icon: Server,
-    github: "#",
+    github: "https://github.com/SahanjithD/E-Channeling-App",
     live: null,
     status: "Open Source",
   },
   {
-    title: "ML Model Deployment Platform",
+    title: "AdaptiveBP",
     description:
-      "End-to-end MLOps platform for training, versioning, and deploying machine learning models. Supports A/B testing and model monitoring.",
-    tags: ["Python", "MLflow", "Kubernetes", "FastAPI"],
+      "Modular monolith platform for dynamic form generation and application provisioning, built with Spring Boot 3.3, Angular 17, and MongoDB Atlas.",
+    tags: ["Spring Boot", "Angular", "MongoDB", "JWT", "Java", "TypeScript"],
     icon: Brain,
-    github: "#",
-    live: "#",
-    status: "Beta",
+    github: "https://github.com/simpleTrex/formGenarator-MrChand",
+    live: null,
+    status: "Collaboration",
   },
 ];
 
@@ -51,7 +51,7 @@ const statusColors: Record<string, string> = {
   Production: "bg-green-500/20 text-green-400 border-green-500/30",
   Active: "bg-primary/20 text-primary border-primary/30",
   "Open Source": "bg-amber-500/20 text-amber-400 border-amber-500/30",
-  Beta: "bg-purple-500/20 text-purple-400 border-purple-500/30",
+  Collaboration: "bg-purple-500/20 text-purple-400 border-purple-500/30",
 };
 
 export function Projects() {
@@ -163,7 +163,7 @@ export function Projects() {
             className="border-primary/50 text-primary hover:bg-primary/10 hover:text-primary"
             asChild
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SahanjithD" target="_blank" rel="noopener noreferrer">
               <Github className="w-4 h-4 mr-2" />
               View All Projects on GitHub
             </a>

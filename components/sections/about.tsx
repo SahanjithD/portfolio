@@ -10,6 +10,11 @@ const interests = [
     description: "CI/CD pipelines, infrastructure automation, and deployment strategies",
   },
   {
+    icon: Terminal,
+    title: "Software Engineering",
+    description: "Software engineering, full-stack development, and maintainable system design",
+  },
+  {
     icon: Network,
     title: "Networking",
     description: "Network architecture, protocols, and system administration",
@@ -28,11 +33,6 @@ const interests = [
     icon: Cloud,
     title: "Cloud",
     description: "AWS, Azure, GCP infrastructure and serverless architectures",
-  },
-  {
-    icon: Terminal,
-    title: "Automation",
-    description: "Scripting, workflow automation, and process optimization",
   },
 ];
 
@@ -63,15 +63,14 @@ export function About() {
           >
             <div className="backdrop-blur-xl bg-card/40 border border-border/50 rounded-2xl p-8 shadow-xl shadow-primary/5">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                I&apos;m a Computer Engineering undergraduate with a deep passion for building 
-                secure, scalable, and automated infrastructure. My journey spans across 
-                DevOps practices, network engineering, cybersecurity, and emerging AI/ML technologies.
+                I&apos;m Dasun Deshaja, a 3rd Year Undergraduate at the Faculty of Engineering,
+                University of Ruhuna, currently following BScEng (Hons) in Computer Engineering.
+                I enjoy building practical solutions across networking, DevOps, and software engineering.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg mt-4">
-                I believe in the power of automation to transform complex systems into 
-                elegant, maintainable solutions. Whether it&apos;s orchestrating containers, 
-                securing network perimeters, or deploying machine learning models, I approach 
-                every challenge with curiosity and precision.
+                My technical interests cover SDN and network tooling, cloud and automation workflows,
+                as well as AI/ML development with Python. I like combining strong fundamentals with
+                hands-on implementation, from infrastructure to full-stack applications.
               </p>
               <div className="mt-6 flex items-center gap-4">
                 <div className="h-px flex-1 bg-gradient-to-r from-transparent via-border to-transparent" />

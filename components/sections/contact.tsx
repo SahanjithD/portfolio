@@ -1,17 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Twitter, Send, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/SahanjithD", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/dasundeshaja/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:ddsahanjith@gmail.com", label: "Email" },
 ];
 
 export function Contact() {
@@ -145,18 +144,18 @@ export function Contact() {
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="w-4 h-4 text-primary" />
                   <span>
-                    <span className="text-primary">location</span>: &quot;San Francisco Bay Area&quot;
+                    <span className="text-primary">location</span>: &quot;Faculty of Engineering, University of Ruhuna&quot;
                   </span>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary" />
                   <span>
-                    <span className="text-primary">email</span>: &quot;hello@example.com&quot;
+                    <span className="text-primary">email</span>: &quot;ddsahanjith@gmail.com&quot;
                   </span>
                 </div>
                 <div className="text-muted-foreground">
                   <span className="text-primary">status</span>:{" "}
-                  <span className="text-green-400">&quot;Open to opportunities&quot;</span>
+                  <span className="text-green-400">&quot;Available for Full time opportunities&quot;</span>
                 </div>
                 <div className="text-muted-foreground">
                   <span className="text-primary">response_time</span>: &quot;~24 hours&quot;
@@ -191,7 +190,7 @@ export function Contact() {
                 <div className="absolute inset-0 w-3 h-3 rounded-full bg-green-500 animate-ping" />
               </div>
               <span className="text-sm text-green-400 font-medium">
-                Available for freelance and full-time opportunities
+                Available for Full time opportunities
               </span>
             </div>
           </motion.div>
