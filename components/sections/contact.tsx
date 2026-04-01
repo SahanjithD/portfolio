@@ -1,11 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin, CheckCircle2, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/SahanjithD", label: "GitHub" },
@@ -15,13 +16,30 @@ const socialLinks = [
 
 export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setIsSubmitting(false);
+    setSubmitStatus("idle");
+
+    try {
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
+        formRef.current!,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
+      );
+      setSubmitStatus("success");
+      formRef.current?.reset();
+    } catch {
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+      // Reset status after 5 seconds
+      setTimeout(() => setSubmitStatus("idle"), 5000);
+    }
   };
 
   return (
@@ -53,6 +71,7 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <form
+              ref={formRef}
               onSubmit={handleSubmit}
               className="backdrop-blur-xl bg-card/40 border border-border/50 rounded-2xl p-8 space-y-6"
             >
@@ -63,6 +82,7 @@ export function Contact() {
                   </label>
                   <Input
                     id="name"
+                    name="from_name"
                     placeholder="Your name"
                     className="bg-secondary/50 border-border/50 focus:border-primary/50"
                     required
@@ -74,6 +94,7 @@ export function Contact() {
                   </label>
                   <Input
                     id="email"
+                    name="from_email"
                     type="email"
                     placeholder="you@example.com"
                     className="bg-secondary/50 border-border/50 focus:border-primary/50"
@@ -87,6 +108,7 @@ export function Contact() {
                 </label>
                 <Input
                   id="subject"
+                  name="subject"
                   placeholder="What's this about?"
                   className="bg-secondary/50 border-border/50 focus:border-primary/50"
                   required
@@ -98,12 +120,36 @@ export function Contact() {
                 </label>
                 <Textarea
                   id="message"
+                  name="message"
                   placeholder="Your message..."
                   rows={5}
                   className="bg-secondary/50 border-border/50 focus:border-primary/50 resize-none"
                   required
                 />
               </div>
+
+              {/* Status Messages */}
+              {submitStatus === "success" && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="flex items-center gap-2 px-4 py-3 rounded-lg bg-green-500/10 border border-green-500/30 text-green-400 text-sm"
+                >
+                  <CheckCircle2 className="w-4 h-4 flex-shrink-0" />
+                  Message sent successfully! I&apos;ll get back to you soon.
+                </motion.div>
+              )}
+              {submitStatus === "error" && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="flex items-center gap-2 px-4 py-3 rounded-lg bg-red-500/10 border border-red-500/30 text-red-400 text-sm"
+                >
+                  <AlertCircle className="w-4 h-4 flex-shrink-0" />
+                  Failed to send message. Please try emailing me directly.
+                </motion.div>
+              )}
+
               <Button
                 type="submit"
                 disabled={isSubmitting}

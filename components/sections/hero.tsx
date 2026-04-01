@@ -6,11 +6,12 @@ import { Terminal, ChevronRight } from "lucide-react"
 const COMMANDS: Record<string, string[]> = {
   help: [
     "Available commands:",
-    "  about     - Learn about me",
-    "  skills    - View my technical skills",
-    "  projects  - See my projects",
-    "  contact   - Get in touch",
-    "  clear     - Clear terminal",
+    "  about        - Learn about me",
+    "  skills       - View my technical skills",
+    "  projects     - See my projects",
+    "  competitions - View competitions & hackathons",
+    "  contact      - Get in touch",
+    "  clear        - Clear terminal",
   ],
   about: [
     "Dasun Deshaja",
@@ -24,7 +25,27 @@ const COMMANDS: Record<string, string[]> = {
     "Web: React, Next.js, Node.js, Express, MongoDB, PostgreSQL",
   ],
   projects: [
-    "Type 'projects' or scroll down to view my work",
+    "┌─ Featured Projects ──────────────────────────────┐",
+    "│  01  Draftly        — Blog platform with CI/CD   │",
+    "│  02  CrowdSense     — Real-time feedback app     │",
+    "│  03  E-Channeling   — Doctor appointment system   │",
+    "│  04  AdaptiveBP     — Dynamic form generator     │",
+    "│  05  SecureRemote   — AES-encrypted remote shell │",
+    "│  06  FitTrack       — Flutter fitness tracker    │",
+    "└──────────────────────────────────────────────────┘",
+  ],
+  competitions: [
+    "┌─ Competitions & Hackathons ──────────────────────┐",
+    "│  01  SLAIC AI Hackathon     — Finalist           │",
+    "│  02  Red Cypher 2.0         — Top 10             │",
+    "│  03  Code Night 2025        — 1st Runner-Up      │",
+    "│  04  CyberRush (CTF)        — 5th Place          │",
+    "│  05  CodeX                  — 10th Place         │",
+    "│  06  IEEEXtreme 18.0        — 20th in Sri Lanka  │",
+    "│  07  Algoxplore 1.0         — 9th Place · Finals │",
+    "│  08  Red Cypher 1.0         — 1st Runner-Up      │",
+    "│  09  Insurgex 1.0           — 10th Place         │",
+    "└──────────────────────────────────────────────────┘",
   ],
   contact: [
     "Email: ddsahanjith@gmail.com",
@@ -87,10 +108,6 @@ export function Hero() {
     if (trimmedCmd === "clear") {
       setHistory([])
       return
-    }
-
-    if (trimmedCmd === "projects") {
-      document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
     }
 
     const output = COMMANDS[trimmedCmd] || [`Command not found: ${cmd}`, "Type 'help' for available commands"]

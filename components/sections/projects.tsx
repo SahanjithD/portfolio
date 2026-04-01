@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, ExternalLink, Server, Shield, Brain, Cloud } from "lucide-react";
+import { Github, ExternalLink, Server, Shield, Brain, Cloud, Lock, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -13,7 +13,6 @@ const projects = [
     icon: Cloud,
     github: "https://github.com/SahanjithD/Draftly",
     live: null,
-    status: "Production",
   },
   {
     title: "CrowdSense",
@@ -23,7 +22,6 @@ const projects = [
     icon: Shield,
     github: "https://github.com/SahanjithD/crowdsense",
     live: null,
-    status: "Active",
   },
   {
     title: "E-Channeling App",
@@ -33,7 +31,6 @@ const projects = [
     icon: Server,
     github: "https://github.com/SahanjithD/E-Channeling-App",
     live: null,
-    status: "Open Source",
   },
   {
     title: "AdaptiveBP",
@@ -43,16 +40,26 @@ const projects = [
     icon: Brain,
     github: "https://github.com/simpleTrex/formGenarator-MrChand",
     live: null,
-    status: "Collaboration",
+  },
+  {
+    title: "Secure Remote Access Tool",
+    description:
+      "A secure telnet alternative built with Java featuring AES-encrypted remote command execution, multi-threaded server architecture, and TCP/IP networking.",
+    tags: ["Java", "AES Encryption", "Socket Programming", "Multi-threading"],
+    icon: Lock,
+    github: "https://github.com/SahanjithD/secure_remote_access_tool",
+    live: null,
+  },
+  {
+    title: "FitTrack",
+    description:
+      "Flutter fitness tracker app with Firebase Auth, Firestore-backed workout history and stats, nutrition diary tracking, and profile photo uploads via Cloud Storage.",
+    tags: ["Flutter", "Dart", "Firebase Auth", "Firestore", "Cloud Storage"],
+    icon: Smartphone,
+    github: "https://github.com/SahanjithD/fitness-tracker",
+    live: null,
   },
 ];
-
-const statusColors: Record<string, string> = {
-  Production: "bg-green-500/20 text-green-400 border-green-500/30",
-  Active: "bg-primary/20 text-primary border-primary/30",
-  "Open Source": "bg-amber-500/20 text-amber-400 border-amber-500/30",
-  Collaboration: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-};
 
 export function Projects() {
   return (
@@ -91,11 +98,6 @@ export function Projects() {
                     <div className="p-2 rounded-lg bg-primary/10 border border-primary/20">
                       <project.icon className="w-5 h-5 text-primary" />
                     </div>
-                    <span
-                      className={`text-xs font-mono px-2 py-1 rounded-full border ${statusColors[project.status]}`}
-                    >
-                      {project.status}
-                    </span>
                   </div>
                   <div className="flex gap-2">
                     <Button

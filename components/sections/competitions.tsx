@@ -11,6 +11,7 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/ui/carousel";
+import { CompetitionModal } from "@/components/competition-modal";
 
 const competitions = [
   {
@@ -188,6 +189,7 @@ export function Competitions() {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
+  const [selectedCompetition, setSelectedCompetition] = useState<typeof competitions[number] | null>(null);
 
   useEffect(() => {
     if (!api) return;
@@ -241,7 +243,7 @@ export function Competitions() {
             plugins={[
               Autoplay({
                 delay: 4000,
-                stopOnInteraction: true,
+                stopOnInteraction: false,
                 stopOnMouseEnter: true,
               }),
             ]}
@@ -254,7 +256,8 @@ export function Competitions() {
                 return (
                   <CarouselItem
                     key={comp.id}
-                    className="pl-3 md:pl-4 basis-[75%] sm:basis-[45%] md:basis-[33.333%]"
+                    className="pl-3 md:pl-4 basis-[75%] sm:basis-[45%] md:basis-[33.333%] cursor-pointer"
+                    onClick={() => setSelectedCompetition(comp)}
                   >
                     <motion.div
                       animate={{
@@ -269,7 +272,7 @@ export function Competitions() {
                       className="h-full"
                     >
                       <div
-                        className={`relative h-[380px] sm:h-[420px] md:h-[460px] rounded-2xl overflow-hidden border transition-all duration-500 group ${
+                        className={`relative aspect-square w-full rounded-2xl overflow-hidden border transition-all duration-500 group ${
                           isActive
                             ? "border-primary/50 shadow-[0_0_40px_rgba(34,211,238,0.15)]"
                             : "border-border/30 shadow-lg"
@@ -383,6 +386,12 @@ export function Competitions() {
           </div>
         </motion.div>
       </div>
+
+      {/* Detail Modal */}
+      <CompetitionModal
+        competition={selectedCompetition}
+        onClose={() => setSelectedCompetition(null)}
+      />
     </section>
   );
 }
