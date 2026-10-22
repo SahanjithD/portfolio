@@ -135,12 +135,39 @@
   animation: fade 700ms var(--ease-out) both;
 }
 
+/* Dialogs: quick ease-out in, quicker out. Modals scale from centre. */
+@keyframes pop {
+  from {
+    opacity: 0;
+    scale: 0.96;
+  }
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+.dialog-overlay[data-state="open"] {
+  animation: fade 200ms var(--ease-out);
+}
+.dialog-overlay[data-state="closed"] {
+  animation: fade-out 150ms ease;
+}
+.dialog-content[data-state="open"] {
+  animation: pop 240ms var(--ease-out);
+}
+.dialog-content[data-state="closed"] {
+  animation: fade-out 150ms ease;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
   .rise,
-  .fade {
-    animation: none;
+  .fade,
+  .dialog-overlay,
+  .dialog-content {
+    animation: none !important;
   }
 }
