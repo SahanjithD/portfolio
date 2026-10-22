@@ -1,25 +1,15 @@
 import { SectionHeading } from "@/components/section-heading"
-import { domains, education, roles, skills, type DomainKey } from "@/lib/content"
+import { about, education, roles, stack } from "@/lib/content"
 
 export function About() {
   return (
     <section aria-labelledby="about" className="shell py-20">
       <SectionHeading id="about" title="About">
-        Where I study, what I look after outside class, and the tools I reach for.
+        {about.intro}
       </SectionHeading>
 
       <div className="grid gap-12 border-t border-rule pt-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
-        <div className="max-w-[56ch] space-y-5 text-lg leading-relaxed">
-          <p>
-            I&apos;m in my third year of computer engineering at the University of Ruhuna. Most of what I build sits
-            where networks meet software: SDN controllers and network tooling, automated delivery pipelines, and the
-            full-stack apps that run on top of them.
-          </p>
-          <p>
-            Outside the curriculum I compete in CTFs and hackathons, manage the budget for our IEEE Student Branch,
-            and build machine learning projects in Python.
-          </p>
-        </div>
+        <p className="max-w-[56ch] text-lg leading-relaxed">{about.bio}</p>
 
         <dl className="grid content-start gap-10 sm:grid-cols-2">
           <div>
@@ -27,7 +17,9 @@ export function About() {
             <dd className="mt-2">
               <p className="font-semibold">{education.degree}</p>
               <p className="mt-1">{education.school}</p>
-              <p className="mt-1 text-graphite">{education.detail}</p>
+              <p className="mt-1 text-graphite">
+                Year {education.year} of {education.years}, GPA {education.gpa}
+              </p>
             </dd>
           </div>
           <div>
@@ -42,17 +34,12 @@ export function About() {
         </dl>
       </div>
 
-      <h3 className="mt-16 font-semiwide text-xl font-bold tracking-[-0.01em]">Toolbox</h3>
-      <div className="mt-6 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
-        {(Object.keys(skills) as DomainKey[]).map((key) => (
-          <div key={key}>
-            <span aria-hidden className="block h-[3px] rounded-full" style={{ background: domains[key].color }} />
-            <h4 className="mt-4 font-semibold">{domains[key].label}</h4>
-            <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-graphite lg:block lg:space-y-1.5">
-              {skills[key].map((tool) => (
-                <li key={tool}>{tool}</li>
-              ))}
-            </ul>
+      <h3 className="mt-16 font-semiwide text-xl font-bold tracking-[-0.01em]">Stack</h3>
+      <div className="mt-6 grid gap-x-8 gap-y-8 sm:grid-cols-3">
+        {stack.map(({ group, items }) => (
+          <div key={group}>
+            <h4 className="font-semibold">{group}</h4>
+            <p className="mt-2 text-graphite">{items.join(", ")}</p>
           </div>
         ))}
       </div>

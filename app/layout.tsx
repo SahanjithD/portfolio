@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next"
 import { Archivo, IBM_Plex_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "next-themes"
-import { profile } from "@/lib/content"
+import { profile, site } from "@/lib/content"
 import "./globals.css"
 
 const archivo = Archivo({
@@ -17,16 +17,13 @@ const plexMono = IBM_Plex_Mono({
   variable: "--font-plex-mono",
 })
 
-const description =
-  "Computer engineering undergraduate at the University of Ruhuna working across software-defined networking, DevOps and full-stack development."
-
 export const metadata: Metadata = {
-  title: `${profile.name} | Computer Engineering`,
-  description,
+  title: profile.name,
+  description: site.description,
   authors: [{ name: profile.name, url: profile.github }],
   openGraph: {
     title: profile.name,
-    description,
+    description: site.description,
     type: "website",
   },
 }

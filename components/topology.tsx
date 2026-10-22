@@ -72,7 +72,7 @@ function readPalette(): Palette {
     paper: v("--paper"),
     surface: v("--surface"),
     signal: v("--signal"),
-    fabric: v("--cable-net"),
+    fabric: v("--cable-security"),
     edge: v("--cable-core"),
     control: v("--cable-ops"),
     mono: v("--font-plex-mono") || "monospace",

@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/contact-form"
 import { CopyEmail } from "@/components/copy-email"
 import { GitHubIcon, LinkedInIcon } from "@/components/icons"
 import { SectionHeading } from "@/components/section-heading"
-import { profile } from "@/lib/content"
+import { contact, profile } from "@/lib/content"
 
 const elsewhere = [
   { label: "GitHub", handle: "SahanjithD", href: profile.github, Icon: GitHubIcon },
@@ -14,8 +14,7 @@ export function Contact() {
   return (
     <section aria-labelledby="contact" className="shell py-20">
       <SectionHeading id="contact" title="Contact">
-        Hiring for a networking, DevOps or backend role, or want to build something together? Email me directly or
-        use the form. I usually reply within a day.
+        {contact.intro}
       </SectionHeading>
 
       <div className="border-t border-rule pt-10">

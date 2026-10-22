@@ -3,7 +3,7 @@ import type { Project } from "@/lib/content"
 // Draws each lane of a project as boxes joined by a cable in the project's
 // domain colour, so the diagram reads left to right like the data does.
 // Lanes wrap on narrow screens rather than scrolling.
-export function Pipeline({ lanes, color }: { lanes: Project["lanes"]; color: string }) {
+export function Pipeline({ lanes, color }: { lanes: NonNullable<Project["lanes"]>; color: string }) {
   return (
     <div className="grid gap-4 sm:gap-3">
       {lanes.map((lane) => (

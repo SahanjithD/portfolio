@@ -56,7 +56,7 @@ export function ContactForm() {
           {status === "sending" ? "Sending…" : "Send message"}
         </button>
         <p aria-live="polite" className="text-sm">
-          {status === "sent" && <span className="text-signal-ink">Message sent. I usually reply within a day.</span>}
+          {status === "sent" && <span className="text-signal-ink">Message sent. I&apos;ll reply within a day.</span>}
           {status === "failed" && (
             <span className="text-[#b4321f] dark:text-[#ff8a75]">
               The message didn&apos;t go through. Try again, or email {profile.email} directly.

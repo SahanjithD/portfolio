@@ -1,11 +1,5 @@
 import { Topology } from "@/components/topology"
-import { education, profile } from "@/lib/content"
-
-const titleBlock = [
-  { term: "Studying", value: education.degree.replace(" (Hons)", "") },
-  { term: "At", value: `${profile.university}, ${profile.location}` },
-  { term: "Status", value: profile.status, live: true },
-]
+import { profile, site } from "@/lib/content"
 
 export function Hero() {
   const [first, last] = profile.name.split(" ")
@@ -25,34 +19,16 @@ export function Hero() {
         ))}
       </h1>
 
-      <div className="fade mt-10 grid items-end gap-10 [animation-delay:450ms] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
-        <div>
-          <p className="max-w-[44ch] text-lg leading-relaxed md:text-xl">
-            I&apos;m a computer engineering undergraduate at the {profile.university}. I build software-defined
-            networks, CI/CD pipelines and full-stack apps, and I&apos;m looking for a full-time role where I can keep
-            doing all three.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#projects" className="btn btn-solid">
-              See my projects
-            </a>
-            <a href={`mailto:${profile.email}`} className="btn btn-line">
-              Email me
-            </a>
-          </div>
+      <div className="fade mt-8 flex flex-wrap items-end justify-between gap-x-12 gap-y-6 [animation-delay:450ms]">
+        <p className="max-w-[46ch] text-lg leading-relaxed md:text-xl">{site.intro}</p>
+        <div className="flex flex-wrap gap-3">
+          <a href="#work" className="btn btn-solid">
+            See my work
+          </a>
+          <a href={`mailto:${profile.email}`} className="btn btn-line">
+            Email me
+          </a>
         </div>
-
-        <dl className="grid border-t border-rule sm:grid-cols-3">
-          {titleBlock.map((cell) => (
-            <div key={cell.term} className="border-b border-rule py-3 sm:border-b-0 sm:border-l sm:px-4 sm:first:border-l-0 sm:first:pl-0">
-              <dt className="text-sm text-graphite">{cell.term}</dt>
-              <dd className="mt-1 flex items-baseline gap-2 font-medium leading-snug">
-                {cell.live && <span aria-hidden className="size-2 shrink-0 translate-y-[-1px] rounded-full bg-signal" />}
-                {cell.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
       </div>
     </section>
   )
