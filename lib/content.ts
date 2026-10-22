@@ -60,7 +60,7 @@ export const ragStages: RagStage[] = [
   },
   {
     label: "Store",
-    line: "Vector stores on Amazon S3 Vectors, and on OpenSearch with sparse and hybrid search.",
+    line: "A vector store on Amazon S3 Vectors, and an OpenSearch store with sparse and hybrid search, now in review.",
     builtBy: "me",
     packages: [
       { name: "ai.aws.s3", iface: "ai:VectorStore", repo: repo("ai.aws.s3") },
@@ -81,14 +81,15 @@ export const ragStages: RagStage[] = [
   },
 ]
 
+// Only merged work; each line matches a merged PR title.
 export const alsoShipped = [
   {
-    text: "AgentCore memory for Ballerina agents, with durable human-in-the-loop checkpoints.",
-    href: "https://github.com/SahanjithD/ballerina-ai-memory-for-bedrock-agentcore",
+    text: "WSO2 Integrator docs for the AWS Bedrock, S3 Vectors and S3 data loader AI building blocks.",
+    href: "https://github.com/wso2/docs-integrator/pull/764",
   },
   {
-    text: "WSO2 Integrator docs for the Bedrock, S3 Vectors and S3 data loader building blocks, plus a guide to deploying an agent on AgentCore.",
-    href: "https://github.com/wso2/docs-integrator",
+    text: "A docs guide to deploying, tracing and securing a Ballerina agent on Amazon Bedrock AgentCore.",
+    href: "https://github.com/wso2/docs-integrator/pull/825",
   },
 ]
 
@@ -176,7 +177,7 @@ export const competitions: Competition[] = [
     kind: "Hackathon",
     podium: false,
     summary:
-      "Built Groceria, a shopping agent that compares options and helps people decide faster, and reached the final round.",
+      "Reached the final with Groceria, a smart shopping agent designed to improve decision-making and shopping efficiency.",
     photos: ["slaic1.jpeg", "slaic2.jpeg", "slaic3.jpeg", "slaic4.jpeg", "slaic5.jpeg"].map(photo),
   },
   {
@@ -192,7 +193,7 @@ export const competitions: Competition[] = [
     result: "1st runner-up",
     kind: "Hackathon",
     podium: true,
-    summary: "Shipped a working real-time event platform in eight hours.",
+    summary: "Built a real-time event platform in eight hours.",
     photos: ["codenight1.jpg"].map(photo),
   },
   {
@@ -208,7 +209,7 @@ export const competitions: Competition[] = [
     result: "10th",
     kind: "Dev challenge",
     podium: false,
-    summary: "Debugged and extended real open-source projects under time pressure using Git pull-request workflows.",
+    summary: "A development challenge built around debugging, collaboration and contributing to real-world projects through Git workflows.",
     photos: ["CodeX1.jpeg", "CodeX2.jpeg", "CodeX3.jpeg", "CodeX4.jpeg", "CodeX5.jpeg"].map(photo),
   },
   {
@@ -216,7 +217,7 @@ export const competitions: Competition[] = [
     result: "20th in Sri Lanka",
     kind: "Coding contest",
     podium: false,
-    summary: "A 24-hour global algorithm contest. Ranked 20th among Sri Lankan teams.",
+    summary: "Ranked 20th in Sri Lanka in a global 24-hour coding competition.",
     photos: ["Xtreme18.0.jpeg", "Xtreme18.02.jpeg"].map(photo),
   },
   {
@@ -232,7 +233,7 @@ export const competitions: Competition[] = [
     result: "1st runner-up",
     kind: "CTF",
     podium: true,
-    summary: "Second place overall, and my first real taste of hands-on security work.",
+    summary: "Second place in a competitive CTF, with hands-on experience in security problem solving.",
     photos: ["redcyper1.jpeg", "redcyper2.jpeg", "redcyper3.jpeg", "redcyper4.jpeg"].map(photo),
   },
   {
@@ -240,14 +241,14 @@ export const competitions: Competition[] = [
     result: "10th",
     kind: "Hackathon",
     podium: false,
-    summary: "My first hackathon. Finished tenth and learned how to ship under a deadline.",
+    summary: "My first hackathon, finishing tenth.",
     photos: ["Insurgex.jpeg", "insurgex1.jpeg", "insurgex2.jpeg"].map(photo),
   },
 ]
 
 export const about = {
   intro: "Where I study, what I do outside class, and the tools I use every day.",
-  bio: "I learn by building; hands-on projects are how most things actually stick for me. Outside coursework I compete in CTFs and hackathons and help run student organisations.",
+  bio: "I learn by building; hands-on projects are how most things actually stick for me. Outside coursework I compete in CTFs and hackathons and serve as treasurer of our IEEE Student Branch.",
 }
 
 export const education = {
@@ -260,7 +261,6 @@ export const education = {
 
 export const roles = [
   { title: "Treasurer", org: "IEEE Student Branch, University of Ruhuna", monogram: "IEEE" },
-  { title: "National Executive", org: "G17", monogram: "G17" },
 ]
 
 // Only what the GitHub profile lists as my stack.
