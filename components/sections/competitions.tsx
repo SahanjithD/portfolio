@@ -7,6 +7,9 @@ import { SectionHeading } from "@/components/section-heading"
 import { competitions, type Competition } from "@/lib/content"
 import { cn } from "@/lib/utils"
 
+const words = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+const say = (n: number) => words[n] ?? String(n)
+
 const counts = competitions.reduce<Record<string, number>>((acc, c) => {
   acc[c.kind] = (acc[c.kind] ?? 0) + 1
   return acc
@@ -26,8 +29,9 @@ export function Competitions() {
   return (
     <section aria-labelledby="competitions" className="shell py-20">
       <SectionHeading id="competitions" title="Competitions">
-        {competitions.length} events so far: {counts.Hackathon} hackathons, {counts.CTF} capture-the-flags, a dev
-        challenge and a 24-hour coding contest, with two runner-up finishes. Select an event to see photos from it.
+        {say(competitions.length).replace(/^./, (c) => c.toUpperCase())} events so far: {say(counts.Hackathon)} hackathons, {say(counts.CTF)}{" "}
+        capture-the-flags, a dev challenge and a 24-hour coding contest, with{" "}
+        {say(competitions.filter((c) => c.podium).length)} runner-up finishes. Select an event to see its photos.
       </SectionHeading>
 
       <div className="hidden grid-cols-[10rem_minmax(0,1fr)_10rem_5rem] gap-6 border-b border-rule pb-3 text-sm text-graphite md:grid">
@@ -87,7 +91,8 @@ export function Competitions() {
         ))}
       </div>
 
-      <CompetitionGallery competition={open} onOpenChange={(o) => !o && setOpen(null)} />
+      {/* Keyed so the photo index resets for each event. */}
+      <CompetitionGallery key={open?.event} competition={open} onOpenChange={(o) => !o && setOpen(null)} />
     </section>
   )
 }

@@ -2,8 +2,8 @@ import { Topology } from "@/components/topology"
 import { education, profile } from "@/lib/content"
 
 const titleBlock = [
-  { term: "Studying", value: `${education.degree.replace(" (Hons)", "")}, ${profile.university}` },
-  { term: "Based in", value: profile.location },
+  { term: "Studying", value: education.degree.replace(" (Hons)", "") },
+  { term: "At", value: `${profile.university}, ${profile.location}` },
   { term: "Status", value: profile.status, live: true },
 ]
 
@@ -14,7 +14,7 @@ export function Hero() {
     <section id="top" className="shell pb-20 pt-8 lg:pt-12">
       <Topology />
 
-      <h1 className="mt-8 border-t border-rule pt-5 font-wide text-[clamp(3.25rem,13.4vw,11.25rem)] font-extrabold leading-[0.86] tracking-[-0.035em] lg:mt-10">
+      <h1 className="mt-8 border-t border-rule pt-5 font-wide text-[clamp(3.25rem,16.4vw,15.25rem)] font-extrabold leading-[0.86] tracking-[-0.035em] lg:mt-8">
         {[first, last].map((word, i) => (
           // Padding gives descenders room inside the clipping mask.
           <span key={word} className="-mb-[0.14em] block overflow-hidden pb-[0.14em]">

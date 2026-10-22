@@ -41,7 +41,7 @@ export function Projects() {
                 </a>
               </div>
 
-              <div className="flex flex-col justify-center gap-5 lg:pt-8">
+              <div className="flex min-w-0 flex-col justify-center gap-5 lg:pt-8">
                 <Pipeline lanes={project.lanes} color={domain.color} />
                 <p className="text-sm text-graphite">Built with {project.stack.join(", ")}</p>
               </div>

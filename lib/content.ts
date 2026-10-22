@@ -13,18 +13,18 @@ export const profile = {
 // Domains are colour-coded like patch cables. The same colour marks a
 // domain wherever it appears: skill columns, project tags, the hero diagram.
 export const domains = {
-  net: { label: "Networking & security", color: "var(--cable-net)" },
-  ops: { label: "Cloud & DevOps", color: "var(--cable-ops)" },
-  ml: { label: "AI & ML", color: "var(--cable-ml)" },
-  web: { label: "Web & backend", color: "var(--cable-web)" },
-  core: { label: "Languages & platforms", color: "var(--cable-core)" },
+  net: { label: "Networking and security", color: "var(--cable-net)" },
+  ops: { label: "Cloud and DevOps", color: "var(--cable-ops)" },
+  ml: { label: "AI and ML", color: "var(--cable-ml)" },
+  web: { label: "Web and backend", color: "var(--cable-web)" },
+  core: { label: "Languages and platforms", color: "var(--cable-core)" },
 } as const
 
 export type DomainKey = keyof typeof domains
 
 export const skills: Record<DomainKey, string[]> = {
   net: ["Wireshark", "Ryu", "OpenFlow", "Open vSwitch", "Mininet", "Nmap", "Cisco Packet Tracer"],
-  ops: ["Docker", "Jenkins", "Terraform", "Ansible", "Nginx", "AWS EC2", "Git & GitHub"],
+  ops: ["Docker", "Jenkins", "Terraform", "Ansible", "Nginx", "AWS EC2", "Git", "GitHub"],
   ml: ["Python", "Google ADK", "MediaPipe", "scikit-learn", "pandas", "NumPy", "OpenCV", "Matplotlib", "Jupyter"],
   web: ["React", "Next.js", "Tailwind CSS", "Node.js", "Express", "MongoDB", "PostgreSQL", "Postman"],
   core: ["Java", "C", "C++", "Kotlin", "Flutter", ".NET (WPF)", "Linux"],

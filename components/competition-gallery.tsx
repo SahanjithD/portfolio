@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Image from "next/image"
 import * as Dialog from "@radix-ui/react-dialog"
 import { ChevronLeft, ChevronRight, X } from "lucide-react"
@@ -17,8 +17,6 @@ export function CompetitionGallery({
   const [index, setIndex] = useState(0)
   const photos = competition?.photos ?? []
   const many = photos.length > 1
-
-  useEffect(() => setIndex(0), [competition])
 
   const go = (delta: number) => setIndex((i) => (i + delta + photos.length) % photos.length)
 

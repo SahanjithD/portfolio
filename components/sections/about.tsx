@@ -48,7 +48,7 @@ export function About() {
           <div key={key}>
             <span aria-hidden className="block h-[3px] rounded-full" style={{ background: domains[key].color }} />
             <h4 className="mt-4 font-semibold">{domains[key].label}</h4>
-            <ul className="mt-3 space-y-1.5 text-graphite">
+            <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-graphite lg:block lg:space-y-1.5">
               {skills[key].map((tool) => (
                 <li key={tool}>{tool}</li>
               ))}

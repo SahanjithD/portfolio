@@ -374,7 +374,7 @@ export function Topology() {
   return (
     <div className="grid gap-6 lg:grid-cols-[17rem_1fr] lg:gap-10">
       <div className="order-2 flex flex-col justify-end gap-4 lg:order-1">
-        <ol aria-live="polite" className="min-h-[6.5rem] space-y-1 font-mono text-[0.75rem] leading-relaxed text-graphite">
+        <ol aria-live="polite" className="space-y-1 lg:min-h-[6.5rem] font-mono text-[0.75rem] leading-relaxed text-graphite">
           {log.map((entry, i) => (
             <li key={entry.key} className={i === log.length - 1 ? "text-ink" : undefined}>
               {entry.text}
@@ -389,7 +389,7 @@ export function Topology() {
           .
         </p>
       </div>
-      <div ref={wrapRef} className="order-1 h-[clamp(240px,38vh,400px)] lg:order-2">
+      <div ref={wrapRef} className="order-1 h-[clamp(240px,34vh,380px)] lg:order-2">
         <canvas
           ref={canvasRef}
           role="img"

@@ -5,13 +5,13 @@ import { Moon, Sun } from "lucide-react"
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme()
-  const next = resolvedTheme === "dark" ? "light" : "dark"
 
   return (
     <button
       type="button"
-      onClick={() => setTheme(next)}
-      aria-label={`Switch to ${next} theme`}
+      // The resolved theme is unknown during SSR, so the label stays generic.
+      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      aria-label="Toggle dark theme"
       className="grid size-9 place-items-center rounded-md text-graphite transition-colors hover:text-ink"
     >
       {/* Both icons render on the server; CSS picks one so there's no flash. */}
