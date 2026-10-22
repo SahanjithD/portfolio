@@ -16,8 +16,6 @@
   --cable-security: #0b9ba8;
   --cable-ops: #e0a800;
   --cable-ai: #7b5cd6;
-  --cable-web: #e4692b;
-  --cable-core: #2f6fdb;
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
@@ -35,8 +33,6 @@
   --cable-security: #2ec4cf;
   --cable-ops: #f2c230;
   --cable-ai: #9c84f0;
-  --cable-web: #f2844a;
-  --cable-core: #5b91f0;
 
   color-scheme: dark;
 }
