@@ -107,6 +107,10 @@ export type Project = {
   summary: string
   repo: string
   stack: string[]
+  // Which figure leads the project (see components/project-visuals.tsx).
+  visual: "malware" | "steganography" | "pipeline"
+  caption?: string
+  note?: string
   // Draws the system as lanes of steps, left to right (see components/pipeline.tsx).
   lanes?: { label: string; steps: string[] }[]
 }
@@ -115,12 +119,18 @@ export const projectsIntro = "Academic projects from my degree, from machine lea
 
 export const projects: Project[] = [
   {
-    name: "Malware image classification",
-    tag: "ai",
+    name: "Draftly",
+    tag: "ops",
     summary:
-      "Malware binaries turned into grayscale images and sorted into 25 families by a CNN I trained in PyTorch on the Malimg dataset (9,339 samples). Grad-CAM shows which regions of a binary drove each prediction.",
-    repo: "https://github.com/SahanjithD/malware-image-classification-cnn",
-    stack: ["PyTorch", "scikit-learn", "Matplotlib"],
+      "A MERN blogging app with its own delivery pipeline. Terraform provisions the AWS servers; a push to GitHub has Jenkins test, build and push Docker images, then Ansible deploys them over SSH with Docker Compose.",
+    repo: "https://github.com/SahanjithD/Draftly",
+    stack: ["React", "Express", "MongoDB", "Docker", "Jenkins", "Ansible", "Terraform", "AWS EC2"],
+    visual: "pipeline",
+    lanes: [
+      { label: "Infra", steps: ["Terraform", "AWS EC2"] },
+      { label: "Delivery", steps: ["GitHub push", "Jenkins", "Docker Hub", "Ansible", "Docker Compose"] },
+      { label: "Request", steps: ["React on Nginx", "Express API", "MongoDB Atlas"] },
+    ],
   },
   {
     name: "Keyed image steganography",
@@ -129,19 +139,21 @@ export const projects: Project[] = [
       "Hides a message in an image's pixels using a secret key: a seeded PRNG decides which pixels and bit planes change, instead of writing them in order. I benchmarked it against sequential LSB across 3 image types and 3 payload sizes, measuring PSNR, histogram shift and RS steganalysis.",
     repo: "https://github.com/SahanjithD/prng-lsb-steganography",
     stack: ["Python", "NumPy", "OpenCV"],
+    visual: "steganography",
+    caption:
+      "Pixels changed to hide the same message at 50% capacity. Sequential LSB fills the top of the image and leaves the rest untouched; the keyed version spreads its changes across the whole image. Both keep PSNR above 47 dB at every payload tested.",
   },
   {
-    name: "Draftly",
-    tag: "ops",
+    name: "Malware image classification",
+    tag: "ai",
     summary:
-      "A MERN blogging app with its own delivery pipeline. Terraform provisions the AWS servers; a push to GitHub has Jenkins test, build and push Docker images, then deploy them with Docker Compose.",
-    repo: "https://github.com/SahanjithD/Draftly",
-    stack: ["React", "Express", "MongoDB", "Docker", "Jenkins", "Terraform", "AWS EC2"],
-    lanes: [
-      { label: "Infra", steps: ["Terraform", "AWS EC2"] },
-      { label: "Delivery", steps: ["GitHub push", "Jenkins", "Docker Hub", "Docker Compose"] },
-      { label: "Request", steps: ["React on Nginx", "Express API", "MongoDB Atlas"] },
-    ],
+      "Malware binaries turned into grayscale images and sorted into 25 families by a CNN I trained in PyTorch on the Malimg dataset (9,339 samples). Grad-CAM shows which regions of a binary drove each prediction.",
+    repo: "https://github.com/SahanjithD/malware-image-classification-cnn",
+    stack: ["PyTorch", "scikit-learn", "Matplotlib"],
+    visual: "malware",
+    caption:
+      "One sample from four families, rendered straight from their bytes, and a Grad-CAM map of where the model looked to call a sample Yuner.A.",
+    note: "Its weak spot: Autorun.K and Yuner.A produce near-identical images, so the model reads every Autorun.K sample as Yuner.A.",
   },
 ]
 
