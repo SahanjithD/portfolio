@@ -1,37 +1,50 @@
-import type { Metadata, Viewport } from 'next'
-import { JetBrains_Mono, Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import type { Metadata, Viewport } from "next"
+import { Archivo, IBM_Plex_Mono } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
+import { ThemeProvider } from "next-themes"
+import { profile } from "@/lib/content"
+import "./globals.css"
 
-const inter = Inter({ 
+const archivo = Archivo({
   subsets: ["latin"],
-  variable: '--font-sans'
-});
+  axes: ["wdth"],
+  variable: "--font-archivo",
+})
 
-const jetbrainsMono = JetBrains_Mono({ 
+const plexMono = IBM_Plex_Mono({
   subsets: ["latin"],
-  variable: '--font-mono'
-});
+  weight: ["400", "500"],
+  variable: "--font-plex-mono",
+})
+
+const description =
+  "Computer engineering undergraduate at the University of Ruhuna working across software-defined networking, DevOps and full-stack development."
 
 export const metadata: Metadata = {
-  title: 'DevOps Engineer Portfolio | Computer Engineering Student',
-  description: 'Portfolio of a Computer Engineering undergraduate specializing in DevOps, Networking, Cybersecurity, and AI/ML. Building secure, scalable infrastructure.',
-  keywords: ['DevOps', 'Cybersecurity', 'Networking', 'AI/ML', 'Computer Engineering', 'Cloud', 'Infrastructure'],
+  title: `${profile.name} | Computer Engineering`,
+  description,
+  authors: [{ name: profile.name, url: profile.github }],
+  openGraph: {
+    title: profile.name,
+    description,
+    type: "website",
+  },
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0a0f1a',
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#e9ecef" },
+    { media: "(prefers-color-scheme: dark)", color: "#0c1622" },
+  ],
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased bg-background text-foreground`}>
-        {children}
+    <html lang="en" suppressHydrationWarning className={`${archivo.variable} ${plexMono.variable}`}>
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
