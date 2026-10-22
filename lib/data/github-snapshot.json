@@ -1,0 +1,2524 @@
+{
+  "fetchedAt": "2026-10-22T21:04:19.796Z",
+  "days": [
+    {
+      "date": "2025-10-19",
+      "count": 8,
+      "level": 2
+    },
+    {
+      "date": "2025-10-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-10-31",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-09",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2025-11-10",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2025-11-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-13",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-11-14",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2025-11-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-17",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2025-11-18",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-11-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-20",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-11-21",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2025-11-22",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-11-23",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2025-11-24",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2025-11-25",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-11-26",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2025-11-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-11-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-12-06",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-12-07",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-12-08",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-12-09",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2025-12-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2025-12-31",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-10",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-01-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-17",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-01-18",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-01-19",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-01-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-01-31",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-08",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-02-09",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2026-02-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-14",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-02-15",
+      "count": 11,
+      "level": 3
+    },
+    {
+      "date": "2026-02-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-17",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-02-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-19",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-02-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-21",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2026-02-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-02-25",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2026-02-26",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-02-27",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-02-28",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-03-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-03",
+      "count": 12,
+      "level": 3
+    },
+    {
+      "date": "2026-03-04",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-03-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-13",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-03-14",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-03-15",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-03-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-19",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-03-20",
+      "count": 10,
+      "level": 2
+    },
+    {
+      "date": "2026-03-21",
+      "count": 16,
+      "level": 4
+    },
+    {
+      "date": "2026-03-22",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-03-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-28",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-03-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-03-30",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-03-31",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-01",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-04-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-04-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-02",
+      "count": 9,
+      "level": 2
+    },
+    {
+      "date": "2026-05-03",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-05-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-07",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-05-31",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-05",
+      "count": 8,
+      "level": 2
+    },
+    {
+      "date": "2026-06-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-07",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-06-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-14",
+      "count": 8,
+      "level": 2
+    },
+    {
+      "date": "2026-06-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-06-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-05",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-07",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-07-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-10",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-07-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-15",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-07-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-19",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-07-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-21",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-07-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-23",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-07-24",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-07-25",
+      "count": 12,
+      "level": 3
+    },
+    {
+      "date": "2026-07-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-27",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-07-28",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-07-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-07-30",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-08-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-03",
+      "count": 9,
+      "level": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 7,
+      "level": 2
+    },
+    {
+      "date": "2026-08-05",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-08-06",
+      "count": 9,
+      "level": 2
+    },
+    {
+      "date": "2026-08-07",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-08-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-11",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-17",
+      "count": 4,
+      "level": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-08-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-24",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-08-25",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-08-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-28",
+      "count": 8,
+      "level": 2
+    },
+    {
+      "date": "2026-08-29",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-08-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-08-31",
+      "count": 16,
+      "level": 4
+    },
+    {
+      "date": "2026-09-01",
+      "count": 11,
+      "level": 3
+    },
+    {
+      "date": "2026-09-02",
+      "count": 8,
+      "level": 2
+    },
+    {
+      "date": "2026-09-03",
+      "count": 18,
+      "level": 4
+    },
+    {
+      "date": "2026-09-04",
+      "count": 7,
+      "level": 2
+    },
+    {
+      "date": "2026-09-05",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-07",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 15,
+      "level": 3
+    },
+    {
+      "date": "2026-09-09",
+      "count": 10,
+      "level": 2
+    },
+    {
+      "date": "2026-09-10",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-09-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-14",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-15",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-16",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 21,
+      "level": 4
+    },
+    {
+      "date": "2026-09-29",
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-02",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-03",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-04",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-10-06",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-07",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-09",
+      "count": 10,
+      "level": 2
+    },
+    {
+      "date": "2026-10-10",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-12",
+      "count": 7,
+      "level": 2
+    },
+    {
+      "date": "2026-10-13",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-10-14",
+      "count": 9,
+      "level": 2
+    },
+    {
+      "date": "2026-10-15",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-10-16",
+      "count": 9,
+      "level": 2
+    },
+    {
+      "date": "2026-10-17",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-18",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-19",
+      "count": 6,
+      "level": 2
+    },
+    {
+      "date": "2026-10-20",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-10-21",
+      "count": 11,
+      "level": 3
+    },
+    {
+      "date": "2026-10-22",
+      "count": 7,
+      "level": 2
+    }
+  ],
+  "pulls": [
+    {
+      "title": "Replace the AWS S3 name keyword with AWS AI S3",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/12",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "merged",
+      "createdAt": "2026-10-21T09:39:51Z",
+      "mergedAt": "2026-10-21T10:10:11Z"
+    },
+    {
+      "title": "Kb keyword 1.0.1",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/15",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "merged",
+      "createdAt": "2026-10-19T07:02:49Z",
+      "mergedAt": "2026-10-19T11:59:38Z"
+    },
+    {
+      "title": "Add the Type/Knowledge Base keyword",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/14",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "merged",
+      "createdAt": "2026-10-16T18:04:36Z",
+      "mergedAt": "2026-10-17T06:12:24Z"
+    },
+    {
+      "title": "Add the AWS Bedrock model, embedding and knowledge base providers",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/12",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "merged",
+      "createdAt": "2026-10-16T05:46:32Z",
+      "mergedAt": "2026-10-16T09:28:38Z"
+    },
+    {
+      "title": "Add the S3 Vectors vector store and S3 data loader review fixes",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/10",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "merged",
+      "createdAt": "2026-10-14T08:34:10Z",
+      "mergedAt": "2026-10-15T04:29:12Z"
+    },
+    {
+      "title": "docs: deploy, trace, and secure a Ballerina agent on Amazon Bedrock AgentCore",
+      "url": "https://github.com/wso2/docs-integrator/pull/825",
+      "repo": "wso2/docs-integrator",
+      "state": "merged",
+      "createdAt": "2026-10-12T08:06:51Z",
+      "mergedAt": "2026-10-16T17:20:59Z"
+    },
+    {
+      "title": "docs(genai): Add AWS Bedrock, S3 Vectors, and S3 data loader docs to AI building blocks",
+      "url": "https://github.com/wso2/docs-integrator/pull/764",
+      "repo": "wso2/docs-integrator",
+      "state": "merged",
+      "createdAt": "2026-10-07T12:56:04Z",
+      "mergedAt": "2026-10-16T16:07:59Z"
+    },
+    {
+      "title": "docs(genai): Add AWS Bedrock, S3 Vectors, and S3 data loader docs to AI building blocks",
+      "url": "https://github.com/wso2/docs-integrator/pull/763",
+      "repo": "wso2/docs-integrator",
+      "state": "closed",
+      "createdAt": "2026-10-07T12:46:10Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add Amazon S3 data loader and S3 Vectors vector store",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/9",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "closed",
+      "createdAt": "2026-10-05T11:37:38Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add the AWS Bedrock model, embedding, and knowledge base providers",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/11",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-10-05T11:28:35Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Align S3 Vectors implementation with the AWS connector",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/8",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "closed",
+      "createdAt": "2026-10-05T07:22:49Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add sparse and hybrid search support to the AWS OpenSearch vector store",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.opensearch/pull/3",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.opensearch",
+      "state": "open",
+      "createdAt": "2026-10-05T07:15:03Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add Bedrock Runtime and Mantle model providers and Bedrock knowledge bases",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/10",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-10-05T07:11:44Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Split the model provider surface by endpoint and fix defects found in live testing",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/8",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-09-24T12:12:20Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add sparse and hybrid search support",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.opensearch/pull/2",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.opensearch",
+      "state": "open",
+      "createdAt": "2026-09-09T13:31:02Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Align S3 Vectors config and errors with the ballerinax/aws packages",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/6",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "closed",
+      "createdAt": "2026-09-04T11:41:00Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Replace serviceUrl with aws:EndpointConfig and require credentials and region",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/7",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-09-04T08:44:47Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add support for Amazon S3 Vectors in Ballerina AI module",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/5",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "closed",
+      "createdAt": "2026-08-20T04:55:13Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Opensearch implementation",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.opensearch/pull/1",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.opensearch",
+      "state": "open",
+      "createdAt": "2026-08-18T11:35:02Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add BedrockVectorKnowledgeBase for self-managed vector stores",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/5",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-08-17T05:46:52Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Bedrock Managed Knowldgebase implementation",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/4",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-08-17T05:40:19Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add AWS Bedrock model and embedding providers (ballerinax/ai.aws.bedrock)",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/3",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "closed",
+      "createdAt": "2026-08-05T05:19:33Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Update GitHub workflows to specify secrets for enhanced security and add daily build workflow",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/4",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "merged",
+      "createdAt": "2026-07-31T08:52:15Z",
+      "mergedAt": "2026-07-31T11:05:24Z"
+    },
+    {
+      "title": "Implement the AWS S3 data loader for the WSO2 integrator",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/3",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "merged",
+      "createdAt": "2026-07-27T15:01:39Z",
+      "mergedAt": "2026-08-06T11:29:08Z"
+    },
+    {
+      "title": "Feat/officer mobile UI",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/29",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-07-25T06:56:46Z",
+      "mergedAt": "2026-07-25T07:03:22Z"
+    },
+    {
+      "title": "feat: add driver NIC and validate the driving licence number",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/26",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-07-25T05:26:00Z",
+      "mergedAt": "2026-07-25T05:35:41Z"
+    },
+    {
+      "title": "feat(backend): seed fine categories, demo accounts, and sample fines",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/22",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-07-25T04:52:16Z",
+      "mergedAt": "2026-07-25T04:52:26Z"
+    },
+    {
+      "title": "fix(consumer): send snake_case request bodies to match backend contract",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/18",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-07-25T04:24:50Z",
+      "mergedAt": "2026-07-25T04:25:04Z"
+    },
+    {
+      "title": "Add model and embedding provider implementations for AWS Bedrock",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/2",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "merged",
+      "createdAt": "2026-07-24T10:14:41Z",
+      "mergedAt": "2026-08-04T18:43:15Z"
+    },
+    {
+      "title": "Add package configuration, native shim, and CI workflows for AWS Bedrock",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.bedrock/pull/1",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.bedrock",
+      "state": "merged",
+      "createdAt": "2026-07-24T09:28:05Z",
+      "mergedAt": "2026-08-04T11:50:08Z"
+    },
+    {
+      "title": "Implement the AWS S3 data loader for the WSO2 integrator",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/2",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "closed",
+      "createdAt": "2026-07-23T12:16:48Z",
+      "mergedAt": null
+    },
+    {
+      "title": "Add build configuration and package structure for the ai.aws.s3 data loader",
+      "url": "https://github.com/ballerina-platform/module-ballerinax-ai.aws.s3/pull/1",
+      "repo": "ballerina-platform/module-ballerinax-ai.aws.s3",
+      "state": "merged",
+      "createdAt": "2026-07-23T11:06:22Z",
+      "mergedAt": "2026-07-30T11:23:29Z"
+    },
+    {
+      "title": "Dev dasun",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/9",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-06-14T06:09:43Z",
+      "mergedAt": "2026-06-14T06:13:37Z"
+    },
+    {
+      "title": "feat: implement traffic fine lookup and payment processing flow with …",
+      "url": "https://github.com/pandorian7/traffic-fine-payment-system/pull/8",
+      "repo": "pandorian7/traffic-fine-payment-system",
+      "state": "merged",
+      "createdAt": "2026-06-14T06:02:07Z",
+      "mergedAt": "2026-06-14T06:02:17Z"
+    },
+    {
+      "title": "docs: add presentation guide and experiment visualization plots while…",
+      "url": "https://github.com/SahanjithD/prng-lsb-steganography/pull/3",
+      "repo": "SahanjithD/prng-lsb-steganography",
+      "state": "merged",
+      "createdAt": "2026-06-07T03:11:49Z",
+      "mergedAt": "2026-06-07T03:15:43Z"
+    },
+    {
+      "title": "feat: implement automated 3x3 steganography benchmarking suite and ev…",
+      "url": "https://github.com/SahanjithD/prng-lsb-steganography/pull/2",
+      "repo": "SahanjithD/prng-lsb-steganography",
+      "state": "merged",
+      "createdAt": "2026-06-05T17:43:29Z",
+      "mergedAt": "2026-06-05T17:43:43Z"
+    },
+    {
+      "title": "feat: initialize project structure with LSB steganography utilities, …",
+      "url": "https://github.com/SahanjithD/prng-lsb-steganography/pull/1",
+      "repo": "SahanjithD/prng-lsb-steganography",
+      "state": "merged",
+      "createdAt": "2026-06-05T14:44:13Z",
+      "mergedAt": "2026-06-05T14:47:10Z"
+    },
+    {
+      "title": "docs: update C4 diagrams to reflect current architecture",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/39",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-05-03T09:46:32Z",
+      "mergedAt": "2026-05-03T09:49:24Z"
+    },
+    {
+      "title": "Fix Module Independence & Data Ownership violations (Rules 1, 2, 3)",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/37",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-05-03T07:18:35Z",
+      "mergedAt": "2026-05-03T07:19:43Z"
+    },
+    {
+      "title": "refactor(workflows): add workflow files to created workflow module an…",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/31",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-03-04T17:08:04Z",
+      "mergedAt": "2026-03-04T17:16:26Z"
+    },
+    {
+      "title": "fix: Enter key moves focus to next field in all forms",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/30",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-03-04T15:38:14Z",
+      "mergedAt": "2026-03-04T15:38:27Z"
+    },
+    {
+      "title": "hardened security",
+      "url": "https://github.com/AshenDeminda/secure_remote_access_tool/pull/1",
+      "repo": "AshenDeminda/secure_remote_access_tool",
+      "state": "merged",
+      "createdAt": "2026-03-03T16:28:20Z",
+      "mergedAt": "2026-03-03T16:28:40Z"
+    },
+    {
+      "title": "Feature/modular monolith",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/28",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-02-27T18:54:30Z",
+      "mergedAt": "2026-02-28T06:50:49Z"
+    },
+    {
+      "title": "architectural changes",
+      "url": "https://github.com/simpleTrex/formGenarator-MrChand/pull/27",
+      "repo": "simpleTrex/formGenarator-MrChand",
+      "state": "merged",
+      "createdAt": "2026-02-27T17:54:21Z",
+      "mergedAt": "2026-02-28T06:12:47Z"
+    },
+    {
+      "title": "Updated Readme",
+      "url": "https://github.com/SahanjithD/fitness-tracker/pull/1",
+      "repo": "SahanjithD/fitness-tracker",
+      "state": "merged",
+      "createdAt": "2026-02-21T11:06:13Z",
+      "mergedAt": "2026-02-21T11:06:24Z"
+    },
+    {
+      "title": "Updated Readme",
+      "url": "https://github.com/UGSNBandara/fitness-tracker/pull/10",
+      "repo": "UGSNBandara/fitness-tracker",
+      "state": "merged",
+      "createdAt": "2026-02-21T11:03:28Z",
+      "mergedAt": "2026-02-21T11:03:38Z"
+    },
+    {
+      "title": "Feature/backend setup",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/11",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2026-02-08T20:14:05Z",
+      "mergedAt": "2026-02-08T20:14:27Z"
+    },
+    {
+      "title": "food screen complete",
+      "url": "https://github.com/UGSNBandara/fitness-tracker/pull/5",
+      "repo": "UGSNBandara/fitness-tracker",
+      "state": "merged",
+      "createdAt": "2026-01-19T06:09:04Z",
+      "mergedAt": "2026-01-19T06:12:37Z"
+    },
+    {
+      "title": "food screen",
+      "url": "https://github.com/UGSNBandara/fitness-tracker/pull/1",
+      "repo": "UGSNBandara/fitness-tracker",
+      "state": "merged",
+      "createdAt": "2026-01-18T13:00:16Z",
+      "mergedAt": "2026-01-18T13:00:30Z"
+    },
+    {
+      "title": "chat with groceria",
+      "url": "https://github.com/Janith-Chamikara/SLAIC090_Simple_Coders/pull/48",
+      "repo": "Janith-Chamikara/SLAIC090_Simple_Coders",
+      "state": "merged",
+      "createdAt": "2025-10-18T19:30:57Z",
+      "mergedAt": "2025-10-18T19:31:22Z"
+    },
+    {
+      "title": "update: frontend",
+      "url": "https://github.com/Janith-Chamikara/SLAIC090_Simple_Coders/pull/45",
+      "repo": "Janith-Chamikara/SLAIC090_Simple_Coders",
+      "state": "merged",
+      "createdAt": "2025-10-18T18:32:56Z",
+      "mergedAt": "2025-10-18T18:33:21Z"
+    },
+    {
+      "title": "merge conflict resolved",
+      "url": "https://github.com/Janith-Chamikara/SLAIC090_Simple_Coders/pull/39",
+      "repo": "Janith-Chamikara/SLAIC090_Simple_Coders",
+      "state": "merged",
+      "createdAt": "2025-10-18T08:10:58Z",
+      "mergedAt": "2025-10-18T08:13:04Z"
+    },
+    {
+      "title": "landing page",
+      "url": "https://github.com/Janith-Chamikara/SLAIC090_Simple_Coders/pull/35",
+      "repo": "Janith-Chamikara/SLAIC090_Simple_Coders",
+      "state": "merged",
+      "createdAt": "2025-10-17T18:44:29Z",
+      "mergedAt": "2025-10-17T18:44:40Z"
+    },
+    {
+      "title": "#3 Create post form",
+      "url": "https://github.com/Janith-Chamikara/code_night_hackathon/pull/16",
+      "repo": "Janith-Chamikara/code_night_hackathon",
+      "state": "merged",
+      "createdAt": "2025-09-17T12:44:11Z",
+      "mergedAt": "2025-09-17T12:44:25Z"
+    },
+    {
+      "title": "Dev dasun",
+      "url": "https://github.com/Janith-Chamikara/code_night_hackathon/pull/11",
+      "repo": "Janith-Chamikara/code_night_hackathon",
+      "state": "merged",
+      "createdAt": "2025-09-17T11:40:59Z",
+      "mergedAt": "2025-09-17T11:41:22Z"
+    },
+    {
+      "title": "update: readme",
+      "url": "https://github.com/Janith-Chamikara/SLAIC090_Simple_Coders/pull/14",
+      "repo": "Janith-Chamikara/SLAIC090_Simple_Coders",
+      "state": "merged",
+      "createdAt": "2025-09-09T15:17:26Z",
+      "mergedAt": "2025-09-09T15:17:34Z"
+    },
+    {
+      "title": "Feature/backend setup",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/10",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-09-05T11:04:58Z",
+      "mergedAt": "2025-09-05T11:05:09Z"
+    },
+    {
+      "title": "enhance admin features; Create admin feedback management page; Add us…",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/9",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-09-01T13:30:52Z",
+      "mergedAt": "2025-09-01T13:31:01Z"
+    },
+    {
+      "title": "admin dashboard uses backend stats for total spaces, feedback, and us…",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/8",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-30T07:52:44Z",
+      "mergedAt": "2025-08-30T07:52:54Z"
+    },
+    {
+      "title": "Feature/backend setup",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/7",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-30T06:16:31Z",
+      "mergedAt": "2025-08-30T06:16:39Z"
+    },
+    {
+      "title": "Feature/backend setup",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/6",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-24T07:47:29Z",
+      "mergedAt": "2025-08-24T07:47:42Z"
+    },
+    {
+      "title": "Add map components, location services",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/5",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-23T09:41:12Z",
+      "mergedAt": "2025-08-23T09:41:22Z"
+    },
+    {
+      "title": "Feature/backend setup",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/4",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-20T12:41:58Z",
+      "mergedAt": "2025-08-20T12:42:23Z"
+    },
+    {
+      "title": "initialized backend",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/3",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-06T06:47:27Z",
+      "mergedAt": "2025-08-06T06:47:36Z"
+    },
+    {
+      "title": "signup and login UI",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/2",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-05T11:58:46Z",
+      "mergedAt": "2025-08-05T11:58:57Z"
+    },
+    {
+      "title": "Reorganize project structure",
+      "url": "https://github.com/SahanjithD/crowdsense/pull/1",
+      "repo": "SahanjithD/crowdsense",
+      "state": "merged",
+      "createdAt": "2025-08-04T14:38:16Z",
+      "mergedAt": "2025-08-04T14:38:30Z"
+    },
+    {
+      "title": "owner dashboard updated",
+      "url": "https://github.com/SahanjithD/smart-harvest-frontend/pull/5",
+      "repo": "SahanjithD/smart-harvest-frontend",
+      "state": "merged",
+      "createdAt": "2025-07-15T11:05:45Z",
+      "mergedAt": "2025-07-15T11:08:39Z"
+    },
+    {
+      "title": "Tasks page created, colors adjusted, weather section and tasks on the dashboard changed",
+      "url": "https://github.com/SahanjithD/smart-harvest-frontend/pull/4",
+      "repo": "SahanjithD/smart-harvest-frontend",
+      "state": "merged",
+      "createdAt": "2025-07-07T13:24:59Z",
+      "mergedAt": "2025-07-07T13:36:56Z"
+    },
+    {
+      "title": "BedDetails UI",
+      "url": "https://github.com/SahanjithD/smart-harvest-frontend/pull/3",
+      "repo": "SahanjithD/smart-harvest-frontend",
+      "state": "merged",
+      "createdAt": "2025-07-07T12:20:42Z",
+      "mergedAt": "2025-07-07T12:20:56Z"
+    },
+    {
+      "title": "added routes to BedDetails page",
+      "url": "https://github.com/SahanjithD/smart-harvest-frontend/pull/2",
+      "repo": "SahanjithD/smart-harvest-frontend",
+      "state": "merged",
+      "createdAt": "2025-07-07T11:35:20Z",
+      "mergedAt": "2025-07-07T11:35:36Z"
+    },
+    {
+      "title": "serverMainRecovered",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/Golang-Project/pull/2",
+      "repo": "sAfLhnOr0XSobMjqpoTg/Golang-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T08:25:29Z",
+      "mergedAt": null
+    },
+    {
+      "title": "check1",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/19",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "open",
+      "createdAt": "2025-05-03T08:09:32Z",
+      "mergedAt": null
+    },
+    {
+      "title": "serverMain",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/Golang-Project/pull/1",
+      "repo": "sAfLhnOr0XSobMjqpoTg/Golang-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T07:50:16Z",
+      "mergedAt": null
+    },
+    {
+      "title": "lateCheck",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/17",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T07:41:20Z",
+      "mergedAt": null
+    },
+    {
+      "title": "simulation2",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/15",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T07:06:52Z",
+      "mergedAt": null
+    },
+    {
+      "title": "simulation",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/14",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:45:14Z",
+      "mergedAt": null
+    },
+    {
+      "title": "ParticleEdited2",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/13",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:40:28Z",
+      "mergedAt": null
+    },
+    {
+      "title": "ParticleEdited",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/12",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:30:41Z",
+      "mergedAt": null
+    },
+    {
+      "title": "ContianmentF",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/11",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:25:45Z",
+      "mergedAt": null
+    },
+    {
+      "title": "particleModified",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/10",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:17:07Z",
+      "mergedAt": null
+    },
+    {
+      "title": "particle",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/8",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T06:06:38Z",
+      "mergedAt": null
+    },
+    {
+      "title": "threadManager",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/7",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T05:59:36Z",
+      "mergedAt": null
+    },
+    {
+      "title": "bugTest",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/6",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T05:41:38Z",
+      "mergedAt": null
+    },
+    {
+      "title": "containtment getSize fixed",
+      "url": "https://github.com/sAfLhnOr0XSobMjqpoTg/CPP-Project/pull/5",
+      "repo": "sAfLhnOr0XSobMjqpoTg/CPP-Project",
+      "state": "closed",
+      "createdAt": "2025-05-03T04:51:57Z",
+      "mergedAt": null
+    }
+  ]
+}
