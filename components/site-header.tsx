@@ -6,6 +6,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { profile } from "@/lib/content"
 
 export const sections = [
+  { id: "work", label: "Work" },
   { id: "projects", label: "Projects" },
   { id: "competitions", label: "Competitions" },
   { id: "about", label: "About" },

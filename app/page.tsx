@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/sections/hero"
+import { Work } from "@/components/sections/work"
 import { Projects } from "@/components/sections/projects"
 import { Competitions } from "@/components/sections/competitions"
 import { About } from "@/components/sections/about"
@@ -12,6 +13,7 @@ export default function Home() {
       <SiteHeader />
       <main id="main">
         <Hero />
+        <Work />
         <Projects />
         <Competitions />
         <About />

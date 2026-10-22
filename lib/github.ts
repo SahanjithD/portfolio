@@ -1,3 +1,4 @@
+import { cache } from "react"
 import snapshot from "@/lib/data/github-snapshot.json"
 import {
   contributionsUrl,
@@ -45,13 +46,14 @@ async function getPullRequests(): Promise<PullRequest[]> {
   }
 }
 
-export async function getGitHubActivity() {
+// Cached per request so the hero and the work section share one fetch and parse.
+export const getGitHubActivity = cache(async () => {
   const [days, pulls] = await Promise.all([getContributions(), getPullRequests()])
   return {
     weeks: toWeeks(days, pulls),
     total: days.reduce((sum, d) => sum + d.count, 0),
     pulls,
   }
-}
+})
 
 export type { Day, PullRequest, Week } from "@/lib/github-core"
