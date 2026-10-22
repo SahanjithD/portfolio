@@ -88,6 +88,12 @@
 }
 
 @layer components {
+  .shell {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 4vw, 2.5rem);
+  }
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.95rem] font-medium;
     transition:
